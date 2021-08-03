@@ -1,0 +1,278 @@
+
+body{
+    background-color: #cefaef;
+    font-family: "Viaoda Libre", cursive;
+    letter-spacing: 2px;
+}
+.paddingTB{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.paddingRB{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-dark-color{
+    background: rgba(128, 191, 157, 0.1);
+}
+.list-group-flush{
+    border-radius: 50px;
+}
+.tablaProd{
+    width: 50%;
+    height: 50%;
+}
+.list-group-item{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #73c6b6;
+}
+.cardFlex{
+    display: flex;
+    justify-content: center;
+}
+.fontstyle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.table-dark-color{
+    background-color: #73c6b6;
+    border-radius: 15px; 
+}
+.textTit{
+    color: white;
+  font-size: 150%;
+  font-weight: bold;
+}
+.infoTable{
+    font-weight: bold;
+    font-size: 20px;
+}
+.media{
+    background-color: #73c6b6;
+    border-radius: 20px;  
+}
+.txtcontact{
+    font-weight: bold;
+  }
+
+
+/*vista desktop*/
+@media only screen and (min-width: 1240px){
+    .navbar-expand-lg .navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    
+    .nav-item{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+      
+    .bordIndex{
+        background-color: #73c6b6;
+        border-radius: 20px;
+    }
+    .txtIndex{
+        
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 20px;
+    }
+    .titIndex{
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      
+    }
+    .imgIndex{
+        position: relative;
+        left: 180px;
+        top: 60px;
+        border-radius: 15px;
+    }
+    .imgTarta{
+        position: relative;
+        left: 180px;
+        top: 30px;
+        border-radius: 15px;
+    }
+    .imgPanes{
+        position: relative;
+        left: 180px;
+        top: 30px;
+        border-radius: 15px;
+        width: 65%;
+        height: 80%;
+    }
+    .fontstyle{
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        left: 300px;
+    }
+    .media-body{
+        position: relative;
+        top: 20px;
+        left: 5px;
+    }
+    .txtNos{
+       font-size: 40px;
+       font-weight: bold;
+    }
+    .imgnos{
+        position: relative;
+        left: 15px;
+        border-radius: 20px;
+        width: 30%;
+    }
+    .contactosFlex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ubiFlex{
+        position: relative;
+        bottom: 80px;
+        width: 100%;
+        height:150%;
+    }
+    .footerbg{
+        display: flex;
+        background: rgba(128, 191, 157, 0.1);
+        text-align: center;
+    }
+    .txtFooter{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+}
+/*vista mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    .nav-item{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .Logo{
+        width: 30%;
+        height: 30%;
+    }
+    .bordIndex{
+        background-color: #73c6b6;
+        border-radius: 20px;
+        
+    }
+    .txtIndex{
+        
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 20px;
+    }
+    .titIndex{
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      
+    }
+    .imgIndex{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .imgTarta{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .imgPanes{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .tablaProd{
+        width: 100%;
+        height: 40%;
+    }
+   
+    .textTit{
+        color: white;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .infoTable{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .media-body{
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+    .txtNos{
+       font-size: 25px;
+       font-weight: bold;
+    }
+    .imgnos{
+        position: relative;
+        border-radius: 20px;
+    }
+    .contactosFlex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+     .ubiFlex{
+        position: relative;
+        bottom: 60px;
+        width: 100%;
+        height:150%;
+    }
+    .footerbg{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .txtFooter{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .imgFoot{
+        display: none;
+    }
+}
