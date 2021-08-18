@@ -144,7 +144,7 @@ body{
     }
     .imgnos{
         position: relative;
-        left: 15px;
+        top: 110px;
         border-radius: 20px;
         width: 30%;
     }
@@ -259,12 +259,15 @@ body{
         left: 5px;
     }
     .txtNos{
-       font-size: 25px;
+       font-size: 30px;
        font-weight: bold;
     }
     .imgnos{
         position: relative;
+        left: 30px;
+        bottom: 5px;
         border-radius: 20px;
+        width: 80%;
     }
     .contactosFlex{
         display: flex;
