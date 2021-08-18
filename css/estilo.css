@@ -64,6 +64,9 @@ body{
 .txtcontact{
     font-weight: bold;
   }
+  .agrandarIcon{
+      font-size: 30px;
+  }
 
 
 /*vista desktop*/
@@ -85,6 +88,7 @@ body{
         background-color: #73c6b6;
         border-radius: 20px;
     }
+    
     .txtIndex{
         
         font-size: 25px;
@@ -164,6 +168,18 @@ body{
     .txtFooter{
         font-size: 35px;
         font-weight: bold;
+    }
+    .positionText{
+        position: relative;
+        top: 130px;
+    }
+    .positionRedes{
+        padding-left: 300px;
+        margin-top: 40px;
+    }
+    .imgFoot{
+        position: relative;
+        right: 180px;
     }
     
 }
@@ -271,6 +287,7 @@ body{
         font-size: 30px;
         font-weight: bold;
         text-align: center;
+       
     }
     .imgFoot{
         display: none;
