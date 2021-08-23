@@ -200,8 +200,13 @@ body{
         font-weight: bold;
     }
     .Logo{
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
+    }
+    .positionNav{
+        position: relative;
+        left: 245px;
+        bottom: 70px;
     }
     .bordIndex{
         background-color: #73c6b6;
