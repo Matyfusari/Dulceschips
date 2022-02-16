@@ -197,7 +197,9 @@ body{
     }
    .imgFoot{
         position: relative;
-        right: 110px;
+        right: 40px;
+        width: 70%;
+      
     }
     
   }
