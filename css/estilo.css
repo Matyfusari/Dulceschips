@@ -55,7 +55,7 @@ body{
 }
 .infoTable{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 .media{
     background-color: #73c6b6;
@@ -77,14 +77,261 @@ body{
       text-align: center;
       font-weight: bold;  
   }
-  
+ 
+  @media only screen and (min-width: 997px) and (max-width: 1024px){
+   
+    .Logo{
+        width: 80%;
+        height: 80%;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        
+    }
 
+    
+    .nav-item{
+        font-size: 28px;
+       font-weight: bold;
+    }
+    
+      
+    .bordIndex{
+        background-color: #73c6b6;
+        border-radius: 20px;
+    }
+    
+    .txtIndex{
+        
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 20px;
+    }
+    .titIndex{
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      
+    }
+    .imgIndex{
+        position: relative;
+        left: 180px;
+        top: 60px;
+        border-radius: 15px;
+    }
+    .imgTarta{
+        position: relative;
+        left: 180px;
+        top: 30px;
+        border-radius: 15px;
+    }
+    .imgPanes{
+        position: relative;
+        left: 180px;
+        top: 30px;
+        border-radius: 15px;
+        width: 65%;
+        height: 80%;
+    }
+    .fontstyle{
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .tablaProd{
+        width: 75%;
+        height: 75%;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        left: 180px;
+    }
+    .media-body{
+        position: relative;
+        top: 20px;
+        left: 5px;
+    }
+    .txtNos{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 15px;
+        position: relative;
+        bottom: 20px;
+     }
+     .imgnos{
+         position: relative;
+         left: 60px;
+         bottom: 15px;
+         border-radius: 20px;
+         width: 80%;
+     }
+    .contactosFlex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ubiFlex{
+        position: relative;
+        bottom: 80px;
+        width: 100%;
+        height:150%;
+    }
+    .positionwpp{
+        position: relative;
+        left: 460px;
+    }
+    .footerbg{
+        display: flex;
+        background: rgba(128, 191, 157, 0.1);
+        text-align: center;
+    }
+    .txtFooter{
+        font-size: 35px;
+        font-weight: bold;
+    }
+   .imgFoot{
+        position: relative;
+        right: 110px;
+    }
+    
+  }
+
+  
+  @media only screen and (min-width: 767px) and (max-width: 996px){
+  
+     .nav-item{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .Logo{
+        width: 40%;
+        height: 40%;
+    }
+    .positionNav{
+        position: relative;
+        left: 600px;
+        bottom: 140px;
+    }
+    .bordIndex{
+        background-color: #73c6b6;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    .txtIndex{
+        
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 20px;
+    }
+    .titIndex{
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      
+    }
+    .imgIndex{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .imgTarta{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .imgPanes{
+        position: relative;
+        right: 10px;
+        bottom: 15px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .tablaProd{
+        width: 100%;
+        height: 40%;
+    }
+   
+    .textTit{
+        color: white;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+    .infoTable{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .nosotrosFlex{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: -15px;
+    }
+    .txtNos{
+       font-size: 30px;
+       font-weight: bold;
+       padding: 15px;
+    }
+    .imgnos{
+        position: relative;
+        left:70px;
+        bottom: 15px;
+        border-radius: 20px;
+        width: 80%;
+    }
+    .contactosFlex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .positionwpp{
+        position: relative;
+        left: 350px;
+    }
+     .ubiFlex{
+        position: relative;
+        bottom: 60px;
+        width: 100%;
+        height:150%;
+    }
+    .footerbg{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .txtFooter{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .imgFoot{
+        display: none;
+    }
+   
+    
+  }
 
 /*vista desktop*/
 @media only screen and (min-width: 1240px){
     .navbar-expand-lg .navbar-collapse{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         
     }
 
